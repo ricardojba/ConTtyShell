@@ -1,5 +1,5 @@
 # ConTtyShell
-ConPtyShell Fork that Evades Microsoft Defender (13/06/2023)
+ConPtyShell Fork that Evades Microsoft Defender (as of 25/11/2024)
 
 **Original:**
 
