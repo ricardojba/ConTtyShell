@@ -26,4 +26,8 @@ Set-PSReadlineOption -HistorySaveStyle SaveNothing
 
 ```
 stty raw -echo; (stty size; cat) | ncat -lvnp 6666
+
+Or
+
+rlwrap ncat -lvnp 6666
 ```
