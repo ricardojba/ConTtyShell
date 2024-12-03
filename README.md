@@ -1,5 +1,7 @@
 # ConTtyShell
-ConPtyShell Fork that Evades Microsoft Defender (as of 25/11/2024)
+ConPtyShell Fork that Evades:
+* Microsoft Defender (as of 25/12/2024)
+* Trend Micro Deep Security (as of 03/12/2024)
 
 **Original:**
 
@@ -11,6 +13,7 @@ https://github.com/antonioCoco/ConPtyShell
 
 **Tested on:**
 * Windows Server 2016 Datacenter 10.0 x64 Build 14393
+* Windows Server 2019 x64 Build 1809
 * Windows 10 22H2 x64
 * Windows 11 22H2 x64
 
